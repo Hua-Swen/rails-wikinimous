@@ -1,8 +1,8 @@
 <ul class="list-plain">
   <% @articles.each do |article| %>
-  <li>
-    <h2><%= link_to article.title, article_path(article) %></h2>
-    <p><%= article.content %></p>
+  <li class="card">
+    <h2 class="card-header"><%= link_to article.title, article_path(article) %></h2>
+    <p class="card-body"><%= article.content %></p>
   </li>
   <% end %>
 </ul>

@@ -16,11 +16,19 @@
 
 body {
   margin: 0px;
+/*  background-image: url('https://images.pexels.com/photos/3748035/pexels-photo-3748035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;*/
 }
 
+.container {
+  width: 500px;
+  margin: 0px;
+}
+
+
 .navbar {
+  color: rgb(160, 160, 160);
   font-size: 20px;
-  /*margin: 0px auto;*/
   display:flex;
   justify-content: space-between;
   background-color: rgb( 241, 241, 241 );

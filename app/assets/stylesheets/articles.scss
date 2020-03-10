@@ -1,12 +1,16 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.container {
-  width: 500px;
-  margin: 0px;
-}
 
 .list-plain {
   list-style: none;
   padding-left: 0px;
+}
+
+.card {
+  margin: 16px;
+}
+
+i {
+  font-size: 20px;
 }
